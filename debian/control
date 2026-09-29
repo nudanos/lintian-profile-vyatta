@@ -1,9 +1,13 @@
 Source: lintian-profile-vyatta
-Section: contrib/devel
+Section: devel
 Priority: optional
-Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
-Build-Depends: debhelper (>= 9), lintian
-Standards-Version: 3.9.6
+Maintainer: NuDanOS Maintainers <jon@fernandez.tech>
+Build-Depends: debhelper-compat (= 13),
+ lintian
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/nudanos/lintian-profile-vyatta.git
+Vcs-Browser: https://github.com/nudanos/lintian-profile-vyatta
 
 Package: lintian-profile-vyatta
 Architecture: all
